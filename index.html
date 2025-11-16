@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;   /* centers horizontally */
+        align-items: center;       /* centers vertically */
+        background: #000;          /* optional — looks cleaner */
+    }
+
+    img {
+        width: 100vw;      /* full viewport width */
+        height: 100vh;     /* full viewport height */
+        object-fit: cover; /* keeps it symmetric + fills screen */
+    }
+</style>
+</head>
 <body>
 
-<img src="example.jpg" alt="" style="max-width:100%;">
+<img src="example.jpg" alt="">
 
 </body>
 </html>
-
